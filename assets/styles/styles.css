@@ -62,15 +62,64 @@
   color: #737373;
 }
 
-.hero {
+.hero-section {
   background-image: url("../images/cameron-casey.jpg");
   background-size: cover;
 }
 
+.hero {
+  max-width: 250px;
+  margin: 0 auto;
+}
 
+.hero h1 {
+  font-size: 30px;
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+}
 
+.hero p {
+  max-width: 200px;
+  font-size: 16px;
+  text-align: center;
+  justify-self: center;
+  color: #fff;
+  margin: 0 auto;
+}
 
+.hero-button {
+  display: flex;
+  flex-direction: column;
+}
 
+.hero-button .button-one,
+.hero-button .button-two {
+  margin: 10px auto;
+}
+
+.hero-button button {
+  padding: 10px 15px;
+  font-size: 12px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.button-state-blue {
+  background-color: #3498db;
+  border: 1px solid #3498db;
+}
+
+.button-state-more {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.hero-form {
+  padding-bottom: 60px;
+}
 
 .form-container {
   max-width: 250px;
