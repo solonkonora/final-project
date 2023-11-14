@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "TT Firs Neue Trial Var Italic", sans-serif; */
+  }
+  
+.main-content {
+  width: 100vw;
+  margin: auto;
+  justify-content: center;
+  justify-self: center;
+  overflow: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  text-align: center;
+  justify-items: center;
+}
+
+.navbar-box1 ul,
+.navbar-box2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-box1 ul li,
+.navbar-box2 ul li {
+  margin-right: 10px;
+}
+
+.navbar-box1 ul li b {
+  font-size: 20px;
+}
+
+.navbar-box2 ul li {
+  margin-right: 10px;
+}
+
+.material-symbols-outlined {
+  color: #808080;
+}
+
+.navbar-box3 ul {
+  margin: 30px 0;
+}
+
+.navbar-box3 li {
+  padding: 12px;
+  font-size: 20px;
+  justify-self: center;
+  text-align: center;
+}
+
+.navbar-box3 li a {
+  text-decoration: none;
+  color: #808080;
+}
