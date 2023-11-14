@@ -62,6 +62,10 @@
   color: #737373;
 }
 
+.hero {
+  background-image: url("../images/cameron-casey.jpg");
+  background-size: cover;
+}
 
 
 
