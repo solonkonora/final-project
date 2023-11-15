@@ -115,6 +115,7 @@
 .button-state-more {
   background-color: transparent;
   border: 1px solid #fff;
+  margin-bottom: 40px;
 }
 
 .hero-form {
@@ -198,14 +199,14 @@
 
 .blue {
   display: flex;
-  background-color: #3498db;
+  background-color: #D9EDFF;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
 .blue .profile {
-  background-color: white;
+  background-color: #fff;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -222,5 +223,23 @@
 .text p {
   margin-top: 35px;
   padding-left: 10px;
+  font-size: 12px;
 }
 
+.white-text ul {
+  padding: 20px;
+  font-size: 12px;
+  border: 1px solid #D9EDFF;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 20px;
+}
+
+.white-text ul li {
+  list-style-type: none;
+  line-height: 20px;
+}
+
+.white-text .learn {
+  font-weight: bold;
+  color: #3498db;
+}
