@@ -186,7 +186,7 @@
 .main-body p {
   margin: 0 auto;
   max-width: 150px;
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 40px;
@@ -242,4 +242,26 @@
 .white-text .learn {
   font-weight: bold;
   color: #3498db;
+}
+
+.clients-testimony {
+  background-color: #FAFAFA;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.clients-testimony h1 {
+  margin: 0 auto;
+  max-width: 150px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.clients-testimony p {
+  margin: 0 auto;
+  max-width: 150px;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
