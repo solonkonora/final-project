@@ -452,17 +452,16 @@ width: 250px;
 }
 
 .second {
-  max-width: 250px;
-  margin: 0 auto;
   background-color: #252B42;
-  padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 20px;
 }
 
 .last h3 {
   text-align: center;
   padding-top: 30px;
+}
+
+.second h3 {
+  color: #fff;
 }
 
 .last .across {
@@ -475,6 +474,10 @@ width: 250px;
   line-height: 20px;
   letter-spacing: 0.2;
   color: #737373;
+}
+
+.second .across {
+  color: #fff;
 }
 
 .dolar {
@@ -508,6 +511,10 @@ width: 250px;
   letter-spacing: 0.2;
   color: #737373;
   padding: 10px;
+}
+
+.second .tick .last-para {
+  color: #fff;
 }
 
 .blue-button {
