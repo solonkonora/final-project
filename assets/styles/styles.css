@@ -153,6 +153,13 @@ background: #FAFAFA;
   padding-bottom: 60px;
 }
 
+.formheadingtwo{
+
+
+
+  background-color: #fff;
+}
+
 .form-container {
   max-width: 250px;
   margin: 0 auto;
@@ -165,6 +172,10 @@ background: #FAFAFA;
   text-align: center;
   margin-bottom: 20px;
   font-size: 15px;
+}
+
+.formheadingtwo {
+  text-align: left;
 }
 
 .form-group {
@@ -537,3 +548,49 @@ width: 250px;
   width: 100%;
 }
 
+.footer {
+  background-color: #fff;
+  padding: 0 40px;
+}
+
+.footer div {
+  vertical-align: top;
+  padding: 10px;
+}
+
+.footer h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #252B42;
+}
+
+ a {
+  color: #2091F9;
+  margin-right: 10px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer li {
+  margin-bottom: 5px;
+  font-size: 12px;
+  letter-spacing: 0.2;
+  line-height: 20px;
+}
+
+.sub.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.sub.footer p {
+  margin: 0;
+  font-size: 10px;
+  color: #737373;
+  line-height: 1.5;
+}
