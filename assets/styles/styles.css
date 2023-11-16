@@ -528,3 +528,12 @@ width: 250px;
   border-radius: 4px;
   margin-top: 40px;
 }
+
+#contact-us {
+  max-width: 100%;
+}
+
+.map img {
+  width: 100%;
+}
+
