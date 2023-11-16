@@ -4,28 +4,23 @@
   --custom-color-1: #f08cf0;
   --custom-color-2: #b1f3f3;
   --primary-color-text: #fff;
-
-background: #FFFFFF;
-background: #252B42;
-background: #23A6F0;
-background: #2DC071;
-background: #BDBDBD;
-background: #737373;
-background: #8EC2F2;
-background: #FFFFFF;
-background: #2091F9;
-background: #252B42;
-background: #FFFFFF;
-background: #737373;
-background: #252B42;
-background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%);
-background: #DEDEDE;
-background: #FAFAFA;
+  background: #FFFFFF;
+  background: #252B42;
+  background: #23A6F0;
+  background: #2DC071;
+  background: #BDBDBD;
+  background: #737373;
+  background: #8EC2F2;
+  background: #FFFFFF;
+  background: #2091F9;
+  background: #252B42;
+  background: #FFFFFF;
+  background: #737373;
+  background: #252B42;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%);
+  background: #DEDEDE;
+  background: #FAFAFA;
 }
-
-
-
-
 
 * {
   padding: 0;
