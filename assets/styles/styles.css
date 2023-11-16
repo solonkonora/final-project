@@ -1,3 +1,32 @@
+:root {
+  --primary-background-color: #181a1b;
+  --secondary-background-color: #54ea54;
+  --custom-color-1: #f08cf0;
+  --custom-color-2: #b1f3f3;
+  --primary-color-text: #fff;
+
+background: #FFFFFF;
+background: #252B42;
+background: #23A6F0;
+background: #2DC071;
+background: #BDBDBD;
+background: #737373;
+background: #8EC2F2;
+background: #FFFFFF;
+background: #2091F9;
+background: #252B42;
+background: #FFFFFF;
+background: #737373;
+background: #252B42;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%);
+background: #DEDEDE;
+background: #FAFAFA;
+}
+
+
+
+
+
 * {
   padding: 0;
   margin: 0;
@@ -256,6 +285,7 @@
   background-color: #FAFAFA;
   margin: 0 auto;
   max-width: 100%;
+  padding-bottom: 20px;
 }
 
 .clients-testimony h1 {
@@ -313,6 +343,77 @@
 .list {
   margin: 20px;
   list-style: none;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.2;
+  color: #737373;
+}
+
+.about-us {
+  background-color: #fff;
+  padding: 20px;
+  /* text-align: center; */
+  /* max-width: 250px; */
+  margin: 10px auto;
+}
+
+.about-us .header-one {
+  margin: 0 auto;
+  max-width: 150px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.about-us .para-one {
+  margin: 0 auto;
+  max-width: 200px;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  line-height: 20px;
+  letter-spacing: 0.2;
+  color: #737373;
+}
+
+.about-us img {
+  display: flex;
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+.about-us .header-two {
+  max-width: 250px;
+  padding-top: 40px;
+  line-height: 30px;
+  letter-spacing: 0.2;
+}
+
+.about-us .para-two {
+  max-width: 250px;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  line-height: 20px;
+  letter-spacing: 0.2;
+  color: #737373;
+}
+
+.about-us .icon {
+  display: flex;
+}
+
+.icon .material-symbols-outlined {
+  color: #2091F9;
+  padding-right: 12px;
+}
+
+.icon h5 {
+color: #252B42;
+width: 250px;
+}
+
+.icon p {
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 0.2;
