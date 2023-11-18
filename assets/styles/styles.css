@@ -742,8 +742,26 @@ a {
   }
 
   .about-us img {
-    max-width: 350px;
+    max-width: 450px;
     margin: 0;
+}
+
+.prime-two {
+  max-width: 450px;
+}
+
+.about-us .para-two {
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 350px;
+}
+
+.prime-two .icon .icon-text h5,
+.prime-two .icon .icon-text p {
+  font-size: 16px;
+  line-height: 1.5;
+  width: 300px;
+  padding-left: 20px;
 }
 
 }
