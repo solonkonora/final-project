@@ -29,7 +29,7 @@
 }
 
 #head {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/hero-cover.5.jpg");
+  background: linear-gradient(rgba(99, 97, 97, 0.8), rgba(99, 97, 97, 0.8)), url("../images/hero-cover.5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -250,7 +250,7 @@ a {
 
 .blue {
   display: flex;
-  background-color: #d9edff;
+  background-color: #23a6f0;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -644,18 +644,13 @@ a {
     color: #fff;
   }
 
-  /* .footer li {
-    margin-bottom: 5px;
-    font-size: 12px;
-    letter-spacing: 0.2;
-    line-height: 20px;
-  } */
-
   .hero {
     display: flex;
     justify-content: space-between;
     max-width: 80vw;
-    margin-top: 20px;
+    margin: 0px auto;
+    justify-self: center;
+    align-self: center;
   }
 
   .hero-font {
@@ -685,7 +680,43 @@ a {
   .hero-button .button-two {
     margin: 15px;
   }
+
+  .main-body {
+    width: 90vw;
+  }
+
+  .main-body h1 {
+    max-width: 350px;
+    font-size: 35px;
+  }
+
+  .main-body p {
+    max-width: 500px;
+    font-size: 16px;
+  }
+
+  .main-body .all-three {
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    gap: 0.1rem;
+  }
   
+  .blue-white {
+    width: 400px;
+  }
+
+  .blue .text p {
+    margin-bottom: 35px;
+    padding: 5px;
+    font-size: 12px;
+    color: #fff;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+  }
 
 
 }
