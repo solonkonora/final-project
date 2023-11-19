@@ -29,7 +29,7 @@
 }
 
 #head {
-  background: linear-gradient(rgba(99, 97, 97, 0.8), rgba(99, 97, 97, 0.8)), url("../images/hero-cover.5.jpg");
+  background: linear-gradient(#636161cc, #636161cc), url("../images/hero-cover.5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
