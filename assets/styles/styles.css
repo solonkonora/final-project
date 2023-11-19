@@ -587,7 +587,7 @@ a {
 
 @media (min-width: 769px) {
   .nav {
-    background-color: transparent; 
+    background-color: transparent;
     width: 80vw;
     display: flex;
     justify-content: space-between;
@@ -602,7 +602,7 @@ a {
     text-align: center;
     justify-items: center;
     margin: 10px;
-}
+  }
 
   .navbar-box1 ul li b {
     list-style-type: none;
@@ -657,25 +657,25 @@ a {
     max-width: 40vw;
     margin-top: 70px;
   }
-  
+
   .hero h1 {
     font-size: 50px;
     text-align: left;
     padding-left: 15px;
   }
-  
+
   .hero p {
     max-width: 28vw;
     font-size: 17px;
     text-align: left;
     margin: 15px;
   }
-  
+
   .hero-button {
     display: flex;
     flex-direction: row;
   }
-  
+
   .hero-button .button-one,
   .hero-button .button-two {
     margin: 15px;
@@ -688,20 +688,23 @@ a {
 
   .main-body h1,
   .clients-testimony h1,
-  .about-us .header-one {
+  .about-us .header-one,
+  .pricing h1 {
     max-width: 350px;
     font-size: 35px;
   }
 
   .main-body p,
   .clients-testimony p,
-  .about-us .para-one {
+  .about-us .para-one,
+  .pricing .prime {
     max-width: 500px;
     font-size: 16px;
   }
 
   .main-body .all-three,
-  .clients-testimony .three-testimonies {
+  .clients-testimony .three-testimonies,
+  .last-three {
     width: 75vw;
     display: flex;
     flex-direction: row;
@@ -709,7 +712,7 @@ a {
     margin: auto;
     gap: 0.1rem;
   }
-  
+
   .blue-white {
     width: 400px;
   }
@@ -744,24 +747,28 @@ a {
   .about-us img {
     max-width: 450px;
     margin: 0;
-}
+  }
 
-.prime-two {
-  max-width: 450px;
-}
+  .prime-two {
+    max-width: 450px;
+  }
 
-.about-us .para-two {
-  font-size: 16px;
-  line-height: 1.5;
-  max-width: 350px;
-}
+  .about-us .para-two {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 350px;
+  }
 
-.prime-two .icon .icon-text h5,
-.prime-two .icon .icon-text p {
-  font-size: 16px;
-  line-height: 1.5;
-  width: 300px;
-  padding-left: 20px;
-}
+  .prime-two .icon .icon-text h5,
+  .prime-two .icon .icon-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    width: 300px;
+    padding-left: 20px;
+  }
+
+  .second h3 {
+    margin-top: 30px;
+  }
 
 }
