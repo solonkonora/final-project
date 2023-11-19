@@ -543,6 +543,7 @@ a {
 }
 
 .footer {
+  width: 100%;
   background-color: #fff;
   padding: 0 40px;
 }
@@ -573,13 +574,14 @@ a {
 }
 
 .sub.footer {
+  width: 100%;
   background-color: #f2f2f2;
   padding: 20px;
   text-align: center;
 }
 
 .sub.footer p {
-  margin: 0;
+  margin: 0 auto;
   font-size: 10px;
   color: #737373;
   line-height: 1.5;
@@ -771,4 +773,20 @@ a {
     margin-top: 30px;
   }
 
+
+
+
+
+
+
+  #footer {
+    background-color: #fff;
+  }
+
+  .footer {
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
 }
