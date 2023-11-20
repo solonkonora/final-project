@@ -813,11 +813,11 @@ a {
     margin: auto;
     padding-top: 100px;
     color: #fff;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
   }
 
   .cover-photo {
-    width: 55vw;
+    width: 40vw;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -826,16 +826,17 @@ a {
   .cover-photone {
     flex: 1;
     display: flex;
+    margin-right: -247px;
   }
 
   .cover-photone img {
-    height: 360px;
+    height: 357px;
     width: 150px;
   }
 
   .hero-form {
     flex: 1;
-    width: 300px;
+    /* width: 300px; */
   }
 
   .form-container {
