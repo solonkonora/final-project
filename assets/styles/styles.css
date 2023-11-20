@@ -44,7 +44,6 @@
   margin: 0 auto;
   justify-content: center;
   justify-self: center;
-  /* overflow: hidden; */
 }
 
 .navbar {
@@ -176,9 +175,9 @@ a {
   border-radius: 5px;
 }
 
-. {
+/* . {
   display: none;
-}
+} */
 
 .form-header {
   text-align: center;
@@ -670,7 +669,7 @@ a {
     display: flex;
     justify-content: space-between;
     max-width: 80vw;
-    margin: 0px auto;
+    margin: 0 auto;
     justify-self: center;
     align-self: center;
   }
@@ -791,7 +790,7 @@ a {
 
   #contact-us {
     max-width: 100vw;
-    background-color: #252B42;
+    background-color: #252b42;
     margin: 0px auto;
     justify-self: center;
     align-self: center;
@@ -848,17 +847,17 @@ a {
     width: 150px;
   }
 
+  .form-contain {
+    max-width: 600px;
+    border-radius: 0;
+  }
+  
   .hero-form .form-contain {
     flex: 1;
   }
 
   .form-container {
     max-width: 300px;
-  }
-
-  .form-contain {
-    max-width: 600px;
-    border-radius: 0;
   }
 
   .background-overlay {
