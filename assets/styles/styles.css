@@ -791,7 +791,7 @@ a {
   #contact-us {
     max-width: 100vw;
     background-color: #252b42;
-    margin: 0px auto;
+    margin: 0 auto;
     justify-self: center;
     align-self: center;
   }
@@ -851,7 +851,7 @@ a {
     max-width: 600px;
     border-radius: 0;
   }
-  
+
   .hero-form .form-contain {
     flex: 1;
   }
